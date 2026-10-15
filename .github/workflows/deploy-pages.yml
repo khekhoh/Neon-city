@@ -1,7 +1,5 @@
 name: Deploy game to GitHub Pages
-git add README.md .github/workflows/deploy-pages.yml game.js index.html style.css
-git commit -m "Set up GitHub Pages for the game"
-git push origin main
+
 on:
   push:
     branches: [main]
